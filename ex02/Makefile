@@ -6,7 +6,7 @@
 #    By: osarsari <osarsari@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/23 10:55:25 by osarsari          #+#    #+#              #
-#    Updated: 2023/12/18 10:21:06 by osarsari         ###   ########.fr        #
+#    Updated: 2023/12/18 13:29:36 by osarsari         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -41,7 +41,6 @@ SRCS =\
 	tests.cpp
 
 HEADERS =\
-	Account.hpp
 
 # String manipulation magic
 # SRC		:= $(notdir $(SRCS))
