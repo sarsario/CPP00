@@ -6,14 +6,14 @@
 #    By: osarsari <osarsari@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/23 10:55:25 by osarsari          #+#    #+#              #
-#    Updated: 2023/10/23 11:30:05 by osarsari         ###   ########.fr        #
+#    Updated: 2023/12/18 09:49:37 by osarsari         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 # ================================ VARIABLES ================================= #
 
 # The name of the executable
-NAME	= 
+NAME	= phonebook
 
 # Compiler and compiling flags
 CC	= c++
@@ -37,10 +37,13 @@ endif
 # List of source files (add your *.c files here)
 
 SRCS =\
-	
+	phonebook.cpp\
+	contact.cpp\
+	main.cpp
 
-# HEADERS =\
-# 	$(INCDIR)philo.h
+HEADERS =\
+	phonebook.hpp\
+	contact.hpp
 
 # String manipulation magic
 # SRC		:= $(notdir $(SRCS))

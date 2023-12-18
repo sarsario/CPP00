@@ -6,14 +6,14 @@
 #    By: osarsari <osarsari@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/23 10:55:25 by osarsari          #+#    #+#              #
-#    Updated: 2023/10/23 11:20:34 by osarsari         ###   ########.fr        #
+#    Updated: 2023/12/18 08:16:14 by osarsari         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 # ================================ VARIABLES ================================= #
 
 # The name of the executable
-NAME	= megaphone
+NAME = megaphone
 
 # Compiler and compiling flags
 CC	= c++
